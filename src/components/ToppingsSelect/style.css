@@ -1,0 +1,4 @@
+.toppings {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,12 @@
+.topping {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  height: 2rem;
+  background-color: #E9E9AF;
+  border-radius: 1rem;
+}
+
+.topping__content {
+  padding: 0 1rem 0 0.5rem;
+}

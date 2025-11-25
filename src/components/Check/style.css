@@ -1,0 +1,26 @@
+.check {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  background-color: #C81919;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.check--disabled {
+  background-color: #bbb;
+}
+
+.check--disabled:hover {
+  transform: none;
+}
+
+.check:hover:not(.check--disabled) {
+  transform: scale(1.1);
+}
+
